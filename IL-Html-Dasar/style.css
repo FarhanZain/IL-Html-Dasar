@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.container{
+    padding-inline: 64px ;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    background-color: #0c0c0c;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 30px;
+}
+.navbar a{
+    text-decoration: none;
+}
+.nav-logo{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+.nav-logo span{
+    font-size: 28px;
+    font-weight: 700;
+    color: #A7D129;
+}
+.nav-link ul{
+    display: flex;
+    list-style: none;
+}
+.nav-link ul li a{
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.nav-link ul li a:hover{
+    color: #A7D129;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0c0c0c;
+    padding-bottom: 110px;
+    padding-top:130px ;
+}
+.hero p{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.hero h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #A7D129;
+}
+.hero h3{
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+button{
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #A7D129;
+}
+button:hover{
+    background-color: #6F9614;
+    color: white;
+}
+
+
+
+section.about{
+    background-color: #0f0f0f;
+    display: flex;
+    padding-block: 110px;
+    justify-content: space-evenly;
+    align-items:center ;
+}
+section.about h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #A7D129;
+}
+section.about p{
+    width: 480px;
+    font-size: 18px;
+    font-weight:normal ;
+    color: white;
+    margin-top: 5px;
+}
+
+
+
+section.skill{
+    background-color: #0c0c0c;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+section.skill h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #A7D129;
+}
+.skil-img{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+section.project{
+    background-color: #0f0f0f;
+    padding-top: 100px;
+    padding-bottom: 170px;
+}
+section.project h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #A7D129;
+}
+.project-img{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.project-img a{
+    text-decoration: none;
+}
+.project-img div p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.project-img a div img:hover{
+    opacity: 0.5;
+}
+
+
+
+footer{
+    background-color: #A7D129;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+footer h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+.contact-icon{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.contact-icon a {
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+}
+.contact-icon img{
+    width: 50px;
+}
+.contact-icon p{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
