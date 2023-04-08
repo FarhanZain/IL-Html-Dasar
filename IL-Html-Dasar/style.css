@@ -1,209 +1,273 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap");
 
-
-html{
-    scroll-behavior: smooth;
-}
-
-
-
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
-
-
-.container{
-    padding-inline: 64px ;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
-
-nav{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 90%;
-    background-color: #0c0c0c;
-}
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-block: 30px;
-}
-.navbar a{
-    text-decoration: none;
-}
-.nav-logo{
-    font-size: 28px;
-    font-weight: 600;
-    color: white;
-}
-.nav-logo span{
-    font-size: 28px;
-    font-weight: 700;
-    color: #A7D129;
-}
-.nav-link ul{
-    display: flex;
-    list-style: none;
-}
-.nav-link ul li a{
-    text-decoration: none;
-    margin-left: 40px;
-    font-size: 18px;
-    font-weight: 400;
-    color: white;
-}
-.nav-link ul li a:hover{
-    color: #A7D129;
+.container {
+  padding-inline: 64px;
 }
 
-
-
-header{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #0c0c0c;
-    padding-bottom: 110px;
-    padding-top:130px ;
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 91%;
+  background-color: #0c0c0c;
 }
-.hero p{
-    font-size: 20px;
-    font-weight: 600;
-    color: white;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 30px;
 }
-.hero h1{
-    font-size: 40px;
-    font-weight: bold;
-    color: #A7D129;
+.navbar a {
+  text-decoration: none;
 }
-.hero h3{
-    font-size: 28px;
-    font-weight: 600;
-    color: white;
-    margin-bottom: 20px;
+.nav-logo {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
 }
-button{
-    padding-inline: 20px;
-    padding-block: 10px;
-    border-radius: 8px;
-    border: none;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #A7D129;
+.nav-logo span {
+  font-size: 28px;
+  font-weight: 700;
+  color: #a7d129;
 }
-button:hover{
-    background-color: #6F9614;
-    color: white;
+.nav-link ul {
+  display: flex;
+  list-style: none;
 }
-
-
-
-section.about{
-    background-color: #0f0f0f;
-    display: flex;
-    padding-block: 110px;
-    justify-content: space-evenly;
-    align-items:center ;
+.nav-link ul li a {
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
 }
-section.about h2{
-    font-size: 32px;
-    font-weight: bold;
-    color: #A7D129;
-}
-section.about p{
-    width: 480px;
-    font-size: 18px;
-    font-weight:normal ;
-    color: white;
-    margin-top: 5px;
+.nav-link ul li a:hover {
+  color: #a7d129;
 }
 
-
-
-section.skill{
-    background-color: #0c0c0c;
-    padding-top: 100px;
-    padding-bottom: 150px;
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #0c0c0c;
+  padding-bottom: 110px;
+  padding-top: 130px;
 }
-section.skill h1{
-    text-align: center;
-    font-size: 32px;
-    font-weight: bold;
-    color: #A7D129;
+.hero p {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
 }
-.skil-img{
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-evenly;
+.hero h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #a7d129;
 }
-
-
-
-section.project{
-    background-color: #0f0f0f;
-    padding-top: 100px;
-    padding-bottom: 170px;
+.hero h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
 }
-section.project h1{
-    text-align: center;
-    font-size: 32px;
-    font-weight: bold;
-    color: #A7D129;
+.hero button {
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #a7d129;
 }
-.project-img{
-    margin-top: 80px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.project-img a{
-    text-decoration: none;
-}
-.project-img div p{
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 20px;
-}
-.project-img a div img:hover{
-    opacity: 0.5;
+.hero button:hover {
+  background-color: #6f9614;
+  color: white;
 }
 
+section.about {
+  background-color: #0f0f0f;
+  display: flex;
+  padding-block: 110px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section.about h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #a7d129;
+}
+section.about p {
+  width: 480px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  margin-top: 5px;
+  text-align: justify;
+}
 
+.skill {
+  background-color: #0c0c0c;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.skill h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #a7d129;
+}
+.skill p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+}
+.skil-img {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.img-tools p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.bar-green {
+  height: 10px;
+  background-color: #a7d129;
+  border-radius: 10px;
+}
+.bar-white {
+  width: 100px;
+  height: 10px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 30px;
+}
+.bar-html {
+  width: 80%;
+}
+.bar-css {
+  width: 70%;
+}
+.bar-js {
+  width: 50%;
+}
+.bar-boost {
+  width: 60%;
+}
+.bar-figma {
+  width: 70%;
+}
 
-footer{
-    background-color: #A7D129;
-    padding-top: 50px;
-    padding-bottom: 80px;
+.project {
+  background-color: #0f0f0f;
+  padding-top: 100px;
+  padding-bottom: 170px;
 }
-footer h1{
-    text-align: center;
-    font-size: 32px;
-    font-weight: bold;
-    color: black;
+.project h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: #a7d129;
 }
-.contact-icon{
-    display: flex;
-    align-items: baseline;
-    justify-content: space-evenly;
-    margin-top: 50px;
+.project p {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
 }
-.contact-icon a {
-    width: 30%;
-    text-align: center;
-    text-decoration: none;
+.project-img {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
 }
-.contact-icon img{
-    width: 50px;
+.project-img a {
+  text-decoration: none;
 }
-.contact-icon p{
-    color: black;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 20px;
+.project-img div h6 {
+  color: #a7d129;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.project-img div p {
+  width: 330px;
+  text-align: justify;
+  margin-top: 15px;
+}
+.project-img a div img:hover {
+  opacity: 0.5;
+}
+
+footer {
+  background-color: #a7d129;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.hub-saya {
+  margin-right: 100px;
+}
+.hub-saya h1 {
+  margin-bottom: 30px;
+}
+.hub-saya label {
+  font-size: 20px;
+  font-weight: 600;
+}
+.hub-saya input {
+  width: calc(100% - 20px);
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 4px solid black;
+  color: #fff;
+  font-size: 18px;
+}
+.hub-saya button {
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.info-sosmed h1 {
+  text-align: center;
+}
+.info-sosmed a {
+  text-decoration: none;
+  color: black;
+}
+.sosmed {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.sosmed img {
+  width: 50px;
+  margin-right: 20px;
+}
+.sosmed p {
+  font-size: 18px;
+  font-weight: 600;
 }
